@@ -28,9 +28,15 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
+      "package": "com.borisyu.PersonalRecipeBook"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0f684aec-12c3-40a3-959c-8daa79b047ce"
+      }
     }
   }
 }
