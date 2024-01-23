@@ -11,11 +11,23 @@
       "android": {
         "buildType": "apk"
       },
+      "ios": {
+        "simulator": true
+      },
       "distribution": "internal"
     },
-    "production": {}
+    "production": {
+      "credentialsSource": "local"
+    }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "ios": {
+        "appleId": "yuhaoboris@gmail.com",
+        "ascApiKeyPath": "certs/ios/AuthKey_ZZXYM5PCKH_dev_key.p8",
+        "ascApiKeyId": "ZZXYM5PCKH",
+        "ascApiKeyIssuerId": "0317b13c-b653-493b-9e46-4a2a1bb93dda"
+      }
+    }
   }
 }
